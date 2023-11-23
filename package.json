@@ -14,7 +14,8 @@
   "license": "ISC",
   "lint-staged": {
     "src/**/*.ts": [
-      "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\" ."
+      "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\" .",
+      "eslint --ignore-path .eslintignore --ext .js,.ts ."
     ]
   },
   "devDependencies": {
